@@ -6,6 +6,9 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.callbacks import ModelCheckpoint
 from tensorflow.keras.layers import Input, Dense, Dropout, LayerNormalization, MultiHeadAttention, Add, GlobalAveragePooling1D
 import yfinance as yf
+from datetime import datetime
+import matplotlib as plt
+from sklearn.metrics import r2_score
 
 def calculate_bollinger_bands(data, window=10, num_of_std=2):
     """Calculate Bollinger Bands"""
@@ -34,7 +37,7 @@ def calculate_roc(data, periods=10):
 tickers = ['^GSPC']
 
 # Load the CSV file, only reading the necessary columns
-additional_data = pd.read_csv('RawData.csv',
+additional_data = pd.read_csv('./data/RawData.csv',
                               parse_dates=['Date'],
                               index_col='Date',
                               usecols=['Date', 'Price to Earnings Ratio', 'Enterprise Value to Sales'])
@@ -62,6 +65,16 @@ for ticker in tickers:
     volume = data['Volume']
     diff = data['Close'].diff(1)
     percent_change_close = data['Close'].pct_change() * 100
+
+    width = width.squeeze()
+    rsi = rsi.squeeze()
+    roc = roc.squeeze()
+    diff = diff.squeeze()
+    percent_change_close = percent_change_close.squeeze()
+    volume = volume.squeeze()
+    diff = diff.squeeze()
+    percent_change_close = percent_change_close.squeeze()
+    close = close.squeeze()
 
     # Create a DataFrame for the current ticker and append it to the list
     ticker_df = pd.DataFrame({
@@ -344,18 +357,9 @@ accuracy = model.evaluate(test_sequences, test_labels)[1]
 print(accuracy)
 
 # Calculate additional metrics as needed
-from sklearn.metrics import r2_score
+
 
 predictions = model.predict(test_sequences)
 r2 = r2_score(test_labels[:, 1], predictions[:, 0])
 print(f"R-squared: {r2}")
 
-end_time = time.time()
-
-elapsed_time = end_time - start_time
-
-# Convert elapsed time to hours, minutes, and seconds
-hours, rem = divmod(elapsed_time, 3600)
-minutes, seconds = divmod(rem, 60)
-
-print(f"Total runtime: {int(hours):02}:{int(minutes):02}:{int(seconds):02}")
