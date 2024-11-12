@@ -1,0 +1,419 @@
+Mounted at /content/drive
+
+Epoch 1: LearningRateScheduler setting learning rate to 0.0001.
+Epoch 1/10
+123/123 ━━━━━━━━━━━━━━━━━━━━ 0s 432ms/step - dir_acc: 0.5158 - loss: 0.4329
+Epoch 1: dir_acc did not improve from 0.56198
+
+Epoch 1: val_dir_acc did not improve from 0.56670
+123/123 ━━━━━━━━━━━━━━━━━━━━ 142s 488ms/step - dir_acc: 0.5160 - loss: 0.4321 - val_dir_acc: 0.5444 - val_loss: 0.2855 - learning_rate: 1.0000e-04
+
+Epoch 2: LearningRateScheduler setting learning rate to 0.0017333333333333333.
+Epoch 2/10
+123/123 ━━━━━━━━━━━━━━━━━━━━ 0s 126ms/step - dir_acc: 0.5437 - loss: 0.4320
+Epoch 2: dir_acc did not improve from 0.56198
+
+Epoch 2: val_dir_acc did not improve from 0.56670
+123/123 ━━━━━━━━━━━━━━━━━━━━ 60s 128ms/step - dir_acc: 0.5437 - loss: 0.4313 - val_dir_acc: 0.5416 - val_loss: 0.2760 - learning_rate: 0.0017
+
+Epoch 3: LearningRateScheduler setting learning rate to 0.0033666666666666662.
+Epoch 3/10
+123/123 ━━━━━━━━━━━━━━━━━━━━ 0s 126ms/step - dir_acc: 0.5440 - loss: 0.2958
+Epoch 3: dir_acc did not improve from 0.56198
+
+Epoch 3: val_dir_acc did not improve from 0.56670
+123/123 ━━━━━━━━━━━━━━━━━━━━ 21s 129ms/step - dir_acc: 0.5441 - loss: 0.2957 - val_dir_acc: 0.5416 - val_loss: 0.2564 - learning_rate: 0.0034
+
+Epoch 4: LearningRateScheduler setting learning rate to 0.005.
+Epoch 4/10
+123/123 ━━━━━━━━━━━━━━━━━━━━ 0s 125ms/step - dir_acc: 0.5516 - loss: 0.2726
+Epoch 4: dir_acc did not improve from 0.56198
+
+Epoch 4: val_dir_acc did not improve from 0.56670
+123/123 ━━━━━━━━━━━━━━━━━━━━ 16s 128ms/step - dir_acc: 0.5516 - loss: 0.2725 - val_dir_acc: 0.5221 - val_loss: 0.2811 - learning_rate: 0.0050
+
+Epoch 5: LearningRateScheduler setting learning rate to 0.0047529173254165355.
+Epoch 5/10
+123/123 ━━━━━━━━━━━━━━━━━━━━ 0s 124ms/step - dir_acc: 0.5560 - loss: 0.2561
+Epoch 5: dir_acc did not improve from 0.56198
+
+Epoch 5: val_dir_acc did not improve from 0.56670
+123/123 ━━━━━━━━━━━━━━━━━━━━ 16s 126ms/step - dir_acc: 0.5560 - loss: 0.2561 - val_dir_acc: 0.5505 - val_loss: 0.2535 - learning_rate: 0.0048
+
+Epoch 6: LearningRateScheduler setting learning rate to 0.0040606070556375405.
+Epoch 6/10
+123/123 ━━━━━━━━━━━━━━━━━━━━ 0s 124ms/step - dir_acc: 0.5663 - loss: 0.2457
+Epoch 6: dir_acc improved from 0.56198 to 0.57208, saving model to transformer_train_model.keras
+
+Epoch 6: val_dir_acc did not improve from 0.56670
+123/123 ━━━━━━━━━━━━━━━━━━━━ 21s 133ms/step - dir_acc: 0.5664 - loss: 0.2456 - val_dir_acc: 0.5590 - val_loss: 0.2461 - learning_rate: 0.0041
+
+Epoch 7: LearningRateScheduler setting learning rate to 0.003060189730221005.
+Epoch 7/10
+123/123 ━━━━━━━━━━━━━━━━━━━━ 0s 126ms/step - dir_acc: 0.5749 - loss: 0.2344
+Epoch 7: dir_acc improved from 0.57208 to 0.57431, saving model to transformer_train_model.keras
+
+Epoch 7: val_dir_acc improved from 0.56670 to 0.59467, saving model to transformer_val_model.keras
+123/123 ━━━━━━━━━━━━━━━━━━━━ 21s 141ms/step - dir_acc: 0.5749 - loss: 0.2344 - val_dir_acc: 0.5947 - val_loss: 0.2329 - learning_rate: 0.0031
+
+Epoch 8: LearningRateScheduler setting learning rate to 0.001949810269778996.
+Epoch 8/10
+123/123 ━━━━━━━━━━━━━━━━━━━━ 0s 126ms/step - dir_acc: 0.5878 - loss: 0.2309
+Epoch 8: dir_acc improved from 0.57431 to 0.58466, saving model to transformer_train_model.keras
+
+Epoch 8: val_dir_acc did not improve from 0.59467
+123/123 ━━━━━━━━━━━━━━━━━━━━ 20s 136ms/step - dir_acc: 0.5878 - loss: 0.2308 - val_dir_acc: 0.5835 - val_loss: 0.2257 - learning_rate: 0.0019
+
+Epoch 9: LearningRateScheduler setting learning rate to 0.00094939294436246.
+Epoch 9/10
+123/123 ━━━━━━━━━━━━━━━━━━━━ 0s 126ms/step - dir_acc: 0.5951 - loss: 0.2198
+Epoch 9: dir_acc improved from 0.58466 to 0.59057, saving model to transformer_train_model.keras
+
+Epoch 9: val_dir_acc did not improve from 0.59467
+123/123 ━━━━━━━━━━━━━━━━━━━━ 17s 138ms/step - dir_acc: 0.5951 - loss: 0.2198 - val_dir_acc: 0.5472 - val_loss: 0.2321 - learning_rate: 9.4939e-04
+
+Epoch 10: LearningRateScheduler setting learning rate to 0.00025708267458346456.
+Epoch 10/10
+123/123 ━━━━━━━━━━━━━━━━━━━━ 0s 127ms/step - dir_acc: 0.5778 - loss: 0.2190
+Epoch 10: dir_acc did not improve from 0.59057
+
+Epoch 10: val_dir_acc improved from 0.59467 to 0.59633, saving model to transformer_val_model.keras
+123/123 ━━━━━━━━━━━━━━━━━━━━ 20s 135ms/step - dir_acc: 0.5779 - loss: 0.2189 - val_dir_acc: 0.5963 - val_loss: 0.2225 - learning_rate: 2.5708e-04
+14/14 ━━━━━━━━━━━━━━━━━━━━ 5s 211ms/step - dir_acc: 0.5973 - loss: 0.2159
+14/14 ━━━━━━━━━━━━━━━━━━━━ 7s 264ms/step
+R-squared: 0.9189266190849377, accuracy: 0.5928571820259094, batch_size: 64, head_size: 512, num_heads: 8, ff_dim: 512, num_layers: 16, dropout: 0.6
+
+Epoch 1: LearningRateScheduler setting learning rate to 0.0001.
+Epoch 1/10
+245/245 ━━━━━━━━━━━━━━━━━━━━ 0s 199ms/step - dir_acc: 0.5331 - loss: 0.3818
+Epoch 1: dir_acc did not improve from 0.59057
+
+Epoch 1: val_dir_acc did not improve from 0.59633
+245/245 ━━━━━━━━━━━━━━━━━━━━ 122s 220ms/step - dir_acc: 0.5331 - loss: 0.3815 - val_dir_acc: 0.5496 - val_loss: 0.2790 - learning_rate: 1.0000e-04
+
+Epoch 2: LearningRateScheduler setting learning rate to 0.0017333333333333333.
+Epoch 2/10
+245/245 ━━━━━━━━━━━━━━━━━━━━ 0s 67ms/step - dir_acc: 0.5445 - loss: 0.4755
+Epoch 2: dir_acc did not improve from 0.59057
+
+Epoch 2: val_dir_acc did not improve from 0.59633
+245/245 ━━━━━━━━━━━━━━━━━━━━ 17s 68ms/step - dir_acc: 0.5445 - loss: 0.4752 - val_dir_acc: 0.5250 - val_loss: 0.3072 - learning_rate: 0.0017
+
+Epoch 3: LearningRateScheduler setting learning rate to 0.0033666666666666662.
+Epoch 3/10
+245/245 ━━━━━━━━━━━━━━━━━━━━ 0s 71ms/step - dir_acc: 0.5466 - loss: 0.3177
+Epoch 3: dir_acc did not improve from 0.59057
+
+Epoch 3: val_dir_acc did not improve from 0.59633
+245/245 ━━━━━━━━━━━━━━━━━━━━ 21s 72ms/step - dir_acc: 0.5466 - loss: 0.3176 - val_dir_acc: 0.5264 - val_loss: 0.2679 - learning_rate: 0.0034
+
+Epoch 4: LearningRateScheduler setting learning rate to 0.005.
+Epoch 4/10
+245/245 ━━━━━━━━━━━━━━━━━━━━ 0s 68ms/step - dir_acc: 0.5456 - loss: 0.2990
+Epoch 4: dir_acc did not improve from 0.59057
+
+Epoch 4: val_dir_acc did not improve from 0.59633
+245/245 ━━━━━━━━━━━━━━━━━━━━ 20s 69ms/step - dir_acc: 0.5456 - loss: 0.2989 - val_dir_acc: 0.5868 - val_loss: 0.2776 - learning_rate: 0.0050
+
+Epoch 5: LearningRateScheduler setting learning rate to 0.0047529173254165355.
+Epoch 5/10
+245/245 ━━━━━━━━━━━━━━━━━━━━ 0s 69ms/step - dir_acc: 0.5565 - loss: 0.2713
+Epoch 5: dir_acc did not improve from 0.59057
+
+Epoch 5: val_dir_acc did not improve from 0.59633
+245/245 ━━━━━━━━━━━━━━━━━━━━ 21s 70ms/step - dir_acc: 0.5565 - loss: 0.2713 - val_dir_acc: 0.5338 - val_loss: 0.2538 - learning_rate: 0.0048
+
+Epoch 6: LearningRateScheduler setting learning rate to 0.0040606070556375405.
+Epoch 6/10
+245/245 ━━━━━━━━━━━━━━━━━━━━ 0s 68ms/step - dir_acc: 0.5448 - loss: 0.2525
+Epoch 6: dir_acc did not improve from 0.59057
+
+Epoch 6: val_dir_acc did not improve from 0.59633
+245/245 ━━━━━━━━━━━━━━━━━━━━ 17s 69ms/step - dir_acc: 0.5448 - loss: 0.2525 - val_dir_acc: 0.5660 - val_loss: 0.2935 - learning_rate: 0.0041
+
+Epoch 7: LearningRateScheduler setting learning rate to 0.003060189730221005.
+Epoch 7/10
+245/245 ━━━━━━━━━━━━━━━━━━━━ 0s 67ms/step - dir_acc: 0.5548 - loss: 0.2586
+Epoch 7: dir_acc did not improve from 0.59057
+
+Epoch 7: val_dir_acc did not improve from 0.59633
+245/245 ━━━━━━━━━━━━━━━━━━━━ 17s 69ms/step - dir_acc: 0.5548 - loss: 0.2586 - val_dir_acc: 0.5711 - val_loss: 0.2521 - learning_rate: 0.0031
+
+Epoch 8: LearningRateScheduler setting learning rate to 0.001949810269778996.
+Epoch 8/10
+245/245 ━━━━━━━━━━━━━━━━━━━━ 0s 67ms/step - dir_acc: 0.5542 - loss: 0.2388
+Epoch 8: dir_acc did not improve from 0.59057
+
+Epoch 8: val_dir_acc did not improve from 0.59633
+245/245 ━━━━━━━━━━━━━━━━━━━━ 20s 68ms/step - dir_acc: 0.5542 - loss: 0.2387 - val_dir_acc: 0.5666 - val_loss: 0.2397 - learning_rate: 0.0019
+
+Epoch 9: LearningRateScheduler setting learning rate to 0.00094939294436246.
+Epoch 9/10
+245/245 ━━━━━━━━━━━━━━━━━━━━ 0s 66ms/step - dir_acc: 0.5767 - loss: 0.2310
+Epoch 9: dir_acc did not improve from 0.59057
+
+Epoch 9: val_dir_acc did not improve from 0.59633
+245/245 ━━━━━━━━━━━━━━━━━━━━ 17s 68ms/step - dir_acc: 0.5767 - loss: 0.2310 - val_dir_acc: 0.5525 - val_loss: 0.2350 - learning_rate: 9.4939e-04
+
+Epoch 10: LearningRateScheduler setting learning rate to 0.00025708267458346456.
+Epoch 10/10
+245/245 ━━━━━━━━━━━━━━━━━━━━ 0s 67ms/step - dir_acc: 0.5761 - loss: 0.2260
+Epoch 10: dir_acc did not improve from 0.59057
+
+Epoch 10: val_dir_acc did not improve from 0.59633
+245/245 ━━━━━━━━━━━━━━━━━━━━ 17s 68ms/step - dir_acc: 0.5761 - loss: 0.2260 - val_dir_acc: 0.5637 - val_loss: 0.2338 - learning_rate: 2.5708e-04
+14/14 ━━━━━━━━━━━━━━━━━━━━ 2s 131ms/step - dir_acc: 0.5594 - loss: 0.2270
+14/14 ━━━━━━━━━━━━━━━━━━━━ 8s 257ms/step
+R-squared: 0.9152875566207389, accuracy: 0.5491071343421936, batch_size: 32, head_size: 512, num_heads: 8, ff_dim: 1024, num_layers: 14, dropout: 0.3
+
+Epoch 1: LearningRateScheduler setting learning rate to 0.0001.
+Epoch 1/10
+123/123 ━━━━━━━━━━━━━━━━━━━━ 0s 308ms/step - dir_acc: 0.5479 - loss: 0.3462
+Epoch 1: dir_acc did not improve from 0.59057
+
+Epoch 1: val_dir_acc did not improve from 0.59633
+123/123 ━━━━━━━━━━━━━━━━━━━━ 106s 361ms/step - dir_acc: 0.5479 - loss: 0.3458 - val_dir_acc: 0.5260 - val_loss: 0.2484 - learning_rate: 1.0000e-04
+
+Epoch 2: LearningRateScheduler setting learning rate to 0.0017333333333333333.
+Epoch 2/10
+122/123 ━━━━━━━━━━━━━━━━━━━━ 0s 62ms/step - dir_acc: 0.5493 - loss: 0.3503
+Epoch 2: dir_acc did not improve from 0.59057
+
+Epoch 2: val_dir_acc did not improve from 0.59633
+123/123 ━━━━━━━━━━━━━━━━━━━━ 8s 63ms/step - dir_acc: 0.5493 - loss: 0.3498 - val_dir_acc: 0.5321 - val_loss: 0.2640 - learning_rate: 0.0017
+
+Epoch 3: LearningRateScheduler setting learning rate to 0.0033666666666666662.
+Epoch 3/10
+122/123 ━━━━━━━━━━━━━━━━━━━━ 0s 64ms/step - dir_acc: 0.5516 - loss: 0.2840
+Epoch 3: dir_acc did not improve from 0.59057
+
+Epoch 3: val_dir_acc did not improve from 0.59633
+123/123 ━━━━━━━━━━━━━━━━━━━━ 10s 65ms/step - dir_acc: 0.5517 - loss: 0.2840 - val_dir_acc: 0.5684 - val_loss: 0.2587 - learning_rate: 0.0034
+
+Epoch 4: LearningRateScheduler setting learning rate to 0.005.
+Epoch 4/10
+122/123 ━━━━━━━━━━━━━━━━━━━━ 0s 65ms/step - dir_acc: 0.5526 - loss: 0.2678
+Epoch 4: dir_acc did not improve from 0.59057
+
+Epoch 4: val_dir_acc did not improve from 0.59633
+123/123 ━━━━━━━━━━━━━━━━━━━━ 8s 66ms/step - dir_acc: 0.5527 - loss: 0.2677 - val_dir_acc: 0.5740 - val_loss: 0.2614 - learning_rate: 0.0050
+
+Epoch 5: LearningRateScheduler setting learning rate to 0.0047529173254165355.
+Epoch 5/10
+122/123 ━━━━━━━━━━━━━━━━━━━━ 0s 62ms/step - dir_acc: 0.5602 - loss: 0.2593
+Epoch 5: dir_acc did not improve from 0.59057
+
+Epoch 5: val_dir_acc did not improve from 0.59633
+123/123 ━━━━━━━━━━━━━━━━━━━━ 10s 63ms/step - dir_acc: 0.5604 - loss: 0.2591 - val_dir_acc: 0.5589 - val_loss: 0.2320 - learning_rate: 0.0048
+
+Epoch 6: LearningRateScheduler setting learning rate to 0.0040606070556375405.
+Epoch 6/10
+122/123 ━━━━━━━━━━━━━━━━━━━━ 0s 62ms/step - dir_acc: 0.5720 - loss: 0.2241
+Epoch 6: dir_acc did not improve from 0.59057
+
+Epoch 6: val_dir_acc improved from 0.59633 to 0.60137, saving model to transformer_val_model.keras
+123/123 ━━━━━━━━━━━━━━━━━━━━ 11s 67ms/step - dir_acc: 0.5722 - loss: 0.2241 - val_dir_acc: 0.6014 - val_loss: 0.2357 - learning_rate: 0.0041
+
+Epoch 7: LearningRateScheduler setting learning rate to 0.003060189730221005.
+Epoch 7/10
+122/123 ━━━━━━━━━━━━━━━━━━━━ 0s 64ms/step - dir_acc: 0.5986 - loss: 0.2232
+Epoch 7: dir_acc improved from 0.59057 to 0.59583, saving model to transformer_train_model.keras
+
+Epoch 7: val_dir_acc did not improve from 0.60137
+123/123 ━━━━━━━━━━━━━━━━━━━━ 10s 69ms/step - dir_acc: 0.5985 - loss: 0.2231 - val_dir_acc: 0.5472 - val_loss: 0.2230 - learning_rate: 0.0031
+
+Epoch 8: LearningRateScheduler setting learning rate to 0.001949810269778996.
+Epoch 8/10
+122/123 ━━━━━━━━━━━━━━━━━━━━ 0s 64ms/step - dir_acc: 0.5972 - loss: 0.2067
+Epoch 8: dir_acc improved from 0.59583 to 0.60118, saving model to transformer_train_model.keras
+
+Epoch 8: val_dir_acc did not improve from 0.60137
+123/123 ━━━━━━━━━━━━━━━━━━━━ 10s 69ms/step - dir_acc: 0.5973 - loss: 0.2068 - val_dir_acc: 0.5712 - val_loss: 0.2177 - learning_rate: 0.0019
+
+Epoch 9: LearningRateScheduler setting learning rate to 0.00094939294436246.
+Epoch 9/10
+122/123 ━━━━━━━━━━━━━━━━━━━━ 0s 60ms/step - dir_acc: 0.6087 - loss: 0.2007
+Epoch 9: dir_acc improved from 0.60118 to 0.61442, saving model to transformer_train_model.keras
+
+Epoch 9: val_dir_acc did not improve from 0.60137
+123/123 ━━━━━━━━━━━━━━━━━━━━ 8s 65ms/step - dir_acc: 0.6088 - loss: 0.2007 - val_dir_acc: 0.5952 - val_loss: 0.2069 - learning_rate: 9.4939e-04
+
+Epoch 10: LearningRateScheduler setting learning rate to 0.00025708267458346456.
+Epoch 10/10
+122/123 ━━━━━━━━━━━━━━━━━━━━ 0s 63ms/step - dir_acc: 0.6287 - loss: 0.2000
+Epoch 10: dir_acc improved from 0.61442 to 0.62557, saving model to transformer_train_model.keras
+
+Epoch 10: val_dir_acc did not improve from 0.60137
+123/123 ━━━━━━━━━━━━━━━━━━━━ 8s 68ms/step - dir_acc: 0.6287 - loss: 0.1999 - val_dir_acc: 0.5986 - val_loss: 0.2032 - learning_rate: 2.5708e-04
+14/14 ━━━━━━━━━━━━━━━━━━━━ 4s 157ms/step - dir_acc: 0.5884 - loss: 0.2147
+14/14 ━━━━━━━━━━━━━━━━━━━━ 5s 199ms/step
+R-squared: 0.927048905098068, accuracy: 0.5897321701049805, batch_size: 64, head_size: 256, num_heads: 8, ff_dim: 1024, num_layers: 12, dropout: 0.4
+
+Epoch 1: LearningRateScheduler setting learning rate to 0.0001.
+Epoch 1/10
+62/62 ━━━━━━━━━━━━━━━━━━━━ 0s 622ms/step - dir_acc: 0.5478 - loss: 0.5017
+Epoch 1: dir_acc did not improve from 0.62557
+
+Epoch 1: val_dir_acc did not improve from 0.60137
+62/62 ━━━━━━━━━━━━━━━━━━━━ 99s 697ms/step - dir_acc: 0.5477 - loss: 0.4995 - val_dir_acc: 0.5024 - val_loss: 0.2703 - learning_rate: 1.0000e-04
+
+Epoch 2: LearningRateScheduler setting learning rate to 0.0017333333333333333.
+Epoch 2/10
+62/62 ━━━━━━━━━━━━━━━━━━━━ 0s 254ms/step - dir_acc: 0.5368 - loss: 0.4513
+Epoch 2: dir_acc did not improve from 0.62557
+
+Epoch 2: val_dir_acc did not improve from 0.60137
+62/62 ━━━━━━━━━━━━━━━━━━━━ 27s 259ms/step - dir_acc: 0.5368 - loss: 0.4501 - val_dir_acc: 0.5768 - val_loss: 0.3173 - learning_rate: 0.0017
+
+Epoch 3: LearningRateScheduler setting learning rate to 0.0033666666666666662.
+Epoch 3/10
+62/62 ━━━━━━━━━━━━━━━━━━━━ 0s 257ms/step - dir_acc: 0.5526 - loss: 0.3079
+Epoch 3: dir_acc did not improve from 0.62557
+
+Epoch 3: val_dir_acc did not improve from 0.60137
+62/62 ━━━━━━━━━━━━━━━━━━━━ 21s 262ms/step - dir_acc: 0.5526 - loss: 0.3079 - val_dir_acc: 0.5366 - val_loss: 0.2751 - learning_rate: 0.0034
+
+Epoch 4: LearningRateScheduler setting learning rate to 0.005.
+Epoch 4/10
+62/62 ━━━━━━━━━━━━━━━━━━━━ 0s 250ms/step - dir_acc: 0.5589 - loss: 0.2757
+Epoch 4: dir_acc did not improve from 0.62557
+
+Epoch 4: val_dir_acc did not improve from 0.60137
+62/62 ━━━━━━━━━━━━━━━━━━━━ 20s 255ms/step - dir_acc: 0.5589 - loss: 0.2757 - val_dir_acc: 0.4926 - val_loss: 0.2961 - learning_rate: 0.0050
+
+Epoch 5: LearningRateScheduler setting learning rate to 0.0047529173254165355.
+Epoch 5/10
+62/62 ━━━━━━━━━━━━━━━━━━━━ 0s 249ms/step - dir_acc: 0.5485 - loss: 0.2798
+Epoch 5: dir_acc did not improve from 0.62557
+
+Epoch 5: val_dir_acc did not improve from 0.60137
+62/62 ━━━━━━━━━━━━━━━━━━━━ 20s 254ms/step - dir_acc: 0.5486 - loss: 0.2796 - val_dir_acc: 0.5680 - val_loss: 0.2631 - learning_rate: 0.0048
+
+Epoch 6: LearningRateScheduler setting learning rate to 0.0040606070556375405.
+Epoch 6/10
+62/62 ━━━━━━━━━━━━━━━━━━━━ 0s 252ms/step - dir_acc: 0.5686 - loss: 0.2459
+Epoch 6: dir_acc did not improve from 0.62557
+
+Epoch 6: val_dir_acc did not improve from 0.60137
+62/62 ━━━━━━━━━━━━━━━━━━━━ 16s 257ms/step - dir_acc: 0.5686 - loss: 0.2459 - val_dir_acc: 0.5376 - val_loss: 0.2414 - learning_rate: 0.0041
+
+Epoch 7: LearningRateScheduler setting learning rate to 0.003060189730221005.
+Epoch 7/10
+62/62 ━━━━━━━━━━━━━━━━━━━━ 0s 253ms/step - dir_acc: 0.5732 - loss: 0.2352
+Epoch 7: dir_acc did not improve from 0.62557
+
+Epoch 7: val_dir_acc did not improve from 0.60137
+62/62 ━━━━━━━━━━━━━━━━━━━━ 16s 258ms/step - dir_acc: 0.5733 - loss: 0.2352 - val_dir_acc: 0.5288 - val_loss: 0.2466 - learning_rate: 0.0031
+
+Epoch 8: LearningRateScheduler setting learning rate to 0.001949810269778996.
+Epoch 8/10
+62/62 ━━━━━━━━━━━━━━━━━━━━ 0s 251ms/step - dir_acc: 0.5944 - loss: 0.2222
+Epoch 8: dir_acc did not improve from 0.62557
+
+Epoch 8: val_dir_acc did not improve from 0.60137
+62/62 ━━━━━━━━━━━━━━━━━━━━ 20s 256ms/step - dir_acc: 0.5944 - loss: 0.2222 - val_dir_acc: 0.5972 - val_loss: 0.2293 - learning_rate: 0.0019
+
+Epoch 9: LearningRateScheduler setting learning rate to 0.00094939294436246.
+Epoch 9/10
+62/62 ━━━━━━━━━━━━━━━━━━━━ 0s 250ms/step - dir_acc: 0.6059 - loss: 0.2123
+Epoch 9: dir_acc did not improve from 0.62557
+
+Epoch 9: val_dir_acc did not improve from 0.60137
+62/62 ━━━━━━━━━━━━━━━━━━━━ 20s 255ms/step - dir_acc: 0.6058 - loss: 0.2123 - val_dir_acc: 0.5924 - val_loss: 0.2212 - learning_rate: 9.4939e-04
+
+Epoch 10: LearningRateScheduler setting learning rate to 0.00025708267458346456.
+Epoch 10/10
+62/62 ━━━━━━━━━━━━━━━━━━━━ 0s 253ms/step - dir_acc: 0.5956 - loss: 0.2104
+Epoch 10: dir_acc did not improve from 0.62557
+
+Epoch 10: val_dir_acc did not improve from 0.60137
+62/62 ━━━━━━━━━━━━━━━━━━━━ 16s 258ms/step - dir_acc: 0.5956 - loss: 0.2104 - val_dir_acc: 0.5973 - val_loss: 0.2137 - learning_rate: 2.5708e-04
+14/14 ━━━━━━━━━━━━━━━━━━━━ 3s 152ms/step - dir_acc: 0.5609 - loss: 0.2120
+14/14 ━━━━━━━━━━━━━━━━━━━━ 5s 183ms/step
+R-squared: 0.9282365724856232, accuracy: 0.5919643044471741, batch_size: 128, head_size: 256, num_heads: 32, ff_dim: 256, num_layers: 10, dropout: 0.3
+
+Epoch 1: LearningRateScheduler setting learning rate to 0.0001.
+Epoch 1/10
+123/123 ━━━━━━━━━━━━━━━━━━━━ 0s 399ms/step - dir_acc: 0.5365 - loss: 0.4379
+Epoch 1: dir_acc did not improve from 0.62557
+
+Epoch 1: val_dir_acc did not improve from 0.60137
+123/123 ━━━━━━━━━━━━━━━━━━━━ 142s 502ms/step - dir_acc: 0.5366 - loss: 0.4371 - val_dir_acc: 0.5595 - val_loss: 0.2794 - learning_rate: 1.0000e-04
+
+Epoch 2: LearningRateScheduler setting learning rate to 0.0017333333333333333.
+Epoch 2/10
+122/123 ━━━━━━━━━━━━━━━━━━━━ 0s 52ms/step - dir_acc: 0.5358 - loss: 0.4130
+Epoch 2: dir_acc did not improve from 0.62557
+
+Epoch 2: val_dir_acc did not improve from 0.60137
+123/123 ━━━━━━━━━━━━━━━━━━━━ 7s 53ms/step - dir_acc: 0.5359 - loss: 0.4119 - val_dir_acc: 0.5126 - val_loss: 0.2803 - learning_rate: 0.0017
+
+Epoch 3: LearningRateScheduler setting learning rate to 0.0033666666666666662.
+Epoch 3/10
+123/123 ━━━━━━━━━━━━━━━━━━━━ 0s 61ms/step - dir_acc: 0.5510 - loss: 0.2962
+Epoch 3: dir_acc did not improve from 0.62557
+
+Epoch 3: val_dir_acc did not improve from 0.60137
+123/123 ━━━━━━━━━━━━━━━━━━━━ 8s 62ms/step - dir_acc: 0.5510 - loss: 0.2960 - val_dir_acc: 0.5248 - val_loss: 0.2606 - learning_rate: 0.0034
+
+Epoch 4: LearningRateScheduler setting learning rate to 0.005.
+Epoch 4/10
+122/123 ━━━━━━━━━━━━━━━━━━━━ 0s 51ms/step - dir_acc: 0.5587 - loss: 0.2519
+Epoch 4: dir_acc did not improve from 0.62557
+
+Epoch 4: val_dir_acc did not improve from 0.60137
+123/123 ━━━━━━━━━━━━━━━━━━━━ 6s 52ms/step - dir_acc: 0.5588 - loss: 0.2520 - val_dir_acc: 0.5723 - val_loss: 0.2684 - learning_rate: 0.0050
+
+Epoch 5: LearningRateScheduler setting learning rate to 0.0047529173254165355.
+Epoch 5/10
+122/123 ━━━━━━━━━━━━━━━━━━━━ 0s 52ms/step - dir_acc: 0.5701 - loss: 0.2409
+Epoch 5: dir_acc did not improve from 0.62557
+
+Epoch 5: val_dir_acc did not improve from 0.60137
+123/123 ━━━━━━━━━━━━━━━━━━━━ 10s 53ms/step - dir_acc: 0.5702 - loss: 0.2408 - val_dir_acc: 0.5506 - val_loss: 0.2250 - learning_rate: 0.0048
+
+Epoch 6: LearningRateScheduler setting learning rate to 0.0040606070556375405.
+Epoch 6/10
+122/123 ━━━━━━━━━━━━━━━━━━━━ 0s 57ms/step - dir_acc: 0.5864 - loss: 0.2247
+Epoch 6: dir_acc did not improve from 0.62557
+
+Epoch 6: val_dir_acc did not improve from 0.60137
+123/123 ━━━━━━━━━━━━━━━━━━━━ 11s 58ms/step - dir_acc: 0.5864 - loss: 0.2247 - val_dir_acc: 0.5824 - val_loss: 0.2338 - learning_rate: 0.0041
+
+Epoch 7: LearningRateScheduler setting learning rate to 0.003060189730221005.
+Epoch 7/10
+122/123 ━━━━━━━━━━━━━━━━━━━━ 0s 53ms/step - dir_acc: 0.5861 - loss: 0.2156
+Epoch 7: dir_acc did not improve from 0.62557
+
+Epoch 7: val_dir_acc did not improve from 0.60137
+123/123 ━━━━━━━━━━━━━━━━━━━━ 7s 54ms/step - dir_acc: 0.5863 - loss: 0.2156 - val_dir_acc: 0.5757 - val_loss: 0.2088 - learning_rate: 0.0031
+
+Epoch 8: LearningRateScheduler setting learning rate to 0.001949810269778996.
+Epoch 8/10
+122/123 ━━━━━━━━━━━━━━━━━━━━ 0s 54ms/step - dir_acc: 0.6195 - loss: 0.1971
+Epoch 8: dir_acc did not improve from 0.62557
+
+Epoch 8: val_dir_acc did not improve from 0.60137
+123/123 ━━━━━━━━━━━━━━━━━━━━ 10s 56ms/step - dir_acc: 0.6195 - loss: 0.1971 - val_dir_acc: 0.5947 - val_loss: 0.2036 - learning_rate: 0.0019
+
+Epoch 9: LearningRateScheduler setting learning rate to 0.00094939294436246.
+Epoch 9/10
+123/123 ━━━━━━━━━━━━━━━━━━━━ 0s 54ms/step - dir_acc: 0.6182 - loss: 0.1904
+Epoch 9: dir_acc did not improve from 0.62557
+
+Epoch 9: val_dir_acc improved from 0.60137 to 0.62872, saving model to transformer_val_model.keras
+123/123 ━━━━━━━━━━━━━━━━━━━━ 11s 61ms/step - dir_acc: 0.6182 - loss: 0.1904 - val_dir_acc: 0.6287 - val_loss: 0.1942 - learning_rate: 9.4939e-04
+
+Epoch 10: LearningRateScheduler setting learning rate to 0.00025708267458346456.
+Epoch 10/10
+122/123 ━━━━━━━━━━━━━━━━━━━━ 0s 52ms/step - dir_acc: 0.6363 - loss: 0.1839
+Epoch 10: dir_acc improved from 0.62557 to 0.63831, saving model to transformer_train_model.keras
+
+Epoch 10: val_dir_acc improved from 0.62872 to 0.63318, saving model to transformer_val_model.keras
+123/123 ━━━━━━━━━━━━━━━━━━━━ 11s 69ms/step - dir_acc: 0.6363 - loss: 0.1839 - val_dir_acc: 0.6332 - val_loss: 0.1902 - learning_rate: 2.5708e-04
+14/14 ━━━━━━━━━━━━━━━━━━━━ 4s 173ms/step - dir_acc: 0.6053 - loss: 0.1860
+14/14 ━━━━━━━━━━━━━━━━━━━━ 7s 260ms/step
+R-squared: 0.9369269805015521, accuracy: 0.6254464387893677, batch_size: 64, head_size: 128, num_heads: 8, ff_dim: 512, num_layers: 16, dropout: 0.3
+
+Epoch 1: LearningRateScheduler setting learning rate to 0.0001.
+Epoch 1/10
