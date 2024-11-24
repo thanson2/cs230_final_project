@@ -417,3 +417,780 @@ R-squared: 0.9369269805015521, accuracy: 0.6254464387893677, batch_size: 64, hea
 
 Epoch 1: LearningRateScheduler setting learning rate to 0.0001.
 Epoch 1/10
+
+
+
+####
+Epoch 10: val_dir_acc did not improve from 0.69665
+578/578 ━━━━━━━━━━━━━━━━━━━━ 81s 92ms/step - dir_acc: 0.6806 - loss: 0.5849 - val_dir_acc: 0.6952 - val_loss: 0.5747
+65/65 ━━━━━━━━━━━━━━━━━━━━ 5s 43ms/step - dir_acc: 0.6610 - loss: 0.5863
+65/65 ━━━━━━━━━━━━━━━━━━━━ 9s 85ms/step
+R-squared: 0.4211105478917705, accuracy: 0.6700549125671387, batch_size: 64, head_size: 64, num_heads: 32, ff_dim: 1024, num_layers: 16, dropout: 0.6
+Epoch 1/10
+288/289 ━━━━━━━━━━━━━━━━━━━━ 0s 206ms/step - dir_acc: 0.5951 - loss: 0.7980
+
+
+
+
+Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount("/content/drive", force_remount=True).
+Epoch 1/10
+289/289 ━━━━━━━━━━━━━━━━━━━━ 0s 225ms/step - dir_acc: 0.5956 - loss: 0.8385
+Epoch 1: dir_acc improved from -inf to 0.61170, saving model to transformer_train_model.keras
+
+Epoch 1: val_dir_acc improved from -inf to 0.66437, saving model to transformer_val_model.keras
+289/289 ━━━━━━━━━━━━━━━━━━━━ 153s 254ms/step - dir_acc: 0.5956 - loss: 0.8382 - val_dir_acc: 0.6644 - val_loss: 0.6904
+Epoch 2/10
+289/289 ━━━━━━━━━━━━━━━━━━━━ 0s 89ms/step - dir_acc: 0.6453 - loss: 0.6810
+Epoch 2: dir_acc improved from 0.61170 to 0.64889, saving model to transformer_train_model.keras
+
+Epoch 2: val_dir_acc improved from 0.66437 to 0.70527, saving model to transformer_val_model.keras
+289/289 ━━━━━━━━━━━━━━━━━━━━ 56s 97ms/step - dir_acc: 0.6453 - loss: 0.6810 - val_dir_acc: 0.7053 - val_loss: 0.6214
+Epoch 3/10
+289/289 ━━━━━━━━━━━━━━━━━━━━ 0s 90ms/step - dir_acc: 0.6642 - loss: 0.6423
+Epoch 3: dir_acc improved from 0.64889 to 0.66507, saving model to transformer_train_model.keras
+
+Epoch 3: val_dir_acc did not improve from 0.70527
+289/289 ━━━━━━━━━━━━━━━━━━━━ 40s 95ms/step - dir_acc: 0.6642 - loss: 0.6423 - val_dir_acc: 0.6858 - val_loss: 0.6105
+Epoch 4/10
+289/289 ━━━━━━━━━━━━━━━━━━━━ 0s 90ms/step - dir_acc: 0.6747 - loss: 0.6240
+Epoch 4: dir_acc improved from 0.66507 to 0.67204, saving model to transformer_train_model.keras
+
+Epoch 4: val_dir_acc did not improve from 0.70527
+289/289 ━━━━━━━━━━━━━━━━━━━━ 41s 95ms/step - dir_acc: 0.6747 - loss: 0.6240 - val_dir_acc: 0.6850 - val_loss: 0.6412
+Epoch 5/10
+289/289 ━━━━━━━━━━━━━━━━━━━━ 0s 91ms/step - dir_acc: 0.6715 - loss: 0.6191
+Epoch 5: dir_acc improved from 0.67204 to 0.67408, saving model to transformer_train_model.keras
+
+Epoch 5: val_dir_acc did not improve from 0.70527
+289/289 ━━━━━━━━━━━━━━━━━━━━ 41s 95ms/step - dir_acc: 0.6715 - loss: 0.6192 - val_dir_acc: 0.6945 - val_loss: 0.6026
+Epoch 6/10
+289/289 ━━━━━━━━━━━━━━━━━━━━ 0s 90ms/step - dir_acc: 0.6823 - loss: 0.6123
+Epoch 6: dir_acc improved from 0.67408 to 0.68075, saving model to transformer_train_model.keras
+
+Epoch 6: val_dir_acc did not improve from 0.70527
+289/289 ━━━━━━━━━━━━━━━━━━━━ 27s 95ms/step - dir_acc: 0.6823 - loss: 0.6123 - val_dir_acc: 0.6993 - val_loss: 0.6015
+Epoch 7/10
+289/289 ━━━━━━━━━━━━━━━━━━━━ 0s 90ms/step - dir_acc: 0.6806 - loss: 0.6039
+Epoch 7: dir_acc improved from 0.68075 to 0.68161, saving model to transformer_train_model.keras
+
+Epoch 7: val_dir_acc did not improve from 0.70527
+289/289 ━━━━━━━━━━━━━━━━━━━━ 41s 94ms/step - dir_acc: 0.6806 - loss: 0.6039 - val_dir_acc: 0.7011 - val_loss: 0.5934
+Epoch 8/10
+289/289 ━━━━━━━━━━━━━━━━━━━━ 0s 91ms/step - dir_acc: 0.6864 - loss: 0.5987
+Epoch 8: dir_acc improved from 0.68161 to 0.68758, saving model to transformer_train_model.keras
+
+Epoch 8: val_dir_acc improved from 0.70527 to 0.70941, saving model to transformer_val_model.keras
+289/289 ━━━━━━━━━━━━━━━━━━━━ 42s 97ms/step - dir_acc: 0.6864 - loss: 0.5988 - val_dir_acc: 0.7094 - val_loss: 0.5885
+Epoch 9/10
+289/289 ━━━━━━━━━━━━━━━━━━━━ 0s 90ms/step - dir_acc: 0.6901 - loss: 0.5925
+Epoch 9: dir_acc improved from 0.68758 to 0.69374, saving model to transformer_train_model.keras
+
+Epoch 9: val_dir_acc did not improve from 0.70941
+289/289 ━━━━━━━━━━━━━━━━━━━━ 40s 94ms/step - dir_acc: 0.6901 - loss: 0.5925 - val_dir_acc: 0.7011 - val_loss: 0.5922
+Epoch 10/10
+289/289 ━━━━━━━━━━━━━━━━━━━━ 0s 92ms/step - dir_acc: 0.6952 - loss: 0.5918
+Epoch 10: dir_acc improved from 0.69374 to 0.69699, saving model to transformer_train_model.keras
+
+Epoch 10: val_dir_acc did not improve from 0.70941
+289/289 ━━━━━━━━━━━━━━━━━━━━ 41s 95ms/step - dir_acc: 0.6952 - loss: 0.5918 - val_dir_acc: 0.7071 - val_loss: 0.5915
+65/65 ━━━━━━━━━━━━━━━━━━━━ 5s 36ms/step - dir_acc: 0.6921 - loss: 0.6049
+65/65 ━━━━━━━━━━━━━━━━━━━━ 8s 79ms/step
+R-squared: 0.3639419836965966, accuracy: 0.6989697813987732, batch_size: 128, head_size: 64, num_heads: 16, ff_dim: 512, num_layers: 16, dropout: 0.5
+Epoch 1/10
+1156/1156 ━━━━━━━━━━━━━━━━━━━━ 0s 191ms/step - dir_acc: 0.5932 - loss: 0.8646
+Epoch 1: dir_acc did not improve from 0.69699
+
+Epoch 1: val_dir_acc did not improve from 0.70941
+1156/1156 ━━━━━━━━━━━━━━━━━━━━ 321s 201ms/step - dir_acc: 0.5932 - loss: 0.8646 - val_dir_acc: 0.6220 - val_loss: 0.8005
+Epoch 2/10
+1156/1156 ━━━━━━━━━━━━━━━━━━━━ 0s 154ms/step - dir_acc: 0.6312 - loss: 0.7322
+Epoch 2: dir_acc did not improve from 0.69699
+
+Epoch 2: val_dir_acc did not improve from 0.70941
+1156/1156 ━━━━━━━━━━━━━━━━━━━━ 181s 156ms/step - dir_acc: 0.6312 - loss: 0.7322 - val_dir_acc: 0.6460 - val_loss: 0.6971
+Epoch 3/10
+1156/1156 ━━━━━━━━━━━━━━━━━━━━ 0s 153ms/step - dir_acc: 0.6388 - loss: 0.6887
+Epoch 3: dir_acc did not improve from 0.69699
+
+Epoch 3: val_dir_acc did not improve from 0.70941
+1156/1156 ━━━━━━━━━━━━━━━━━━━━ 182s 158ms/step - dir_acc: 0.6388 - loss: 0.6887 - val_dir_acc: 0.6628 - val_loss: 0.6640
+Epoch 4/10
+1156/1156 ━━━━━━━━━━━━━━━━━━━━ 0s 153ms/step - dir_acc: 0.6528 - loss: 0.6622
+Epoch 4: dir_acc did not improve from 0.69699
+
+Epoch 4: val_dir_acc did not improve from 0.70941
+1156/1156 ━━━━━━━━━━━━━━━━━━━━ 200s 156ms/step - dir_acc: 0.6528 - loss: 0.6622 - val_dir_acc: 0.6965 - val_loss: 0.6200
+Epoch 5/10
+1156/1156 ━━━━━━━━━━━━━━━━━━━━ 0s 153ms/step - dir_acc: 0.6708 - loss: 0.6335
+Epoch 5: dir_acc did not improve from 0.69699
+
+Epoch 5: val_dir_acc did not improve from 0.70941
+1156/1156 ━━━━━━━━━━━━━━━━━━━━ 202s 156ms/step - dir_acc: 0.6708 - loss: 0.6335 - val_dir_acc: 0.6873 - val_loss: 0.6122
+Epoch 6/10
+1156/1156 ━━━━━━━━━━━━━━━━━━━━ 0s 154ms/step - dir_acc: 0.6713 - loss: 0.6328
+Epoch 6: dir_acc did not improve from 0.69699
+
+Epoch 6: val_dir_acc did not improve from 0.70941
+1156/1156 ━━━━━━━━━━━━━━━━━━━━ 202s 156ms/step - dir_acc: 0.6713 - loss: 0.6328 - val_dir_acc: 0.6787 - val_loss: 0.6424
+Epoch 7/10
+1156/1156 ━━━━━━━━━━━━━━━━━━━━ 0s 154ms/step - dir_acc: 0.6810 - loss: 0.6155
+Epoch 7: dir_acc did not improve from 0.69699
+
+Epoch 7: val_dir_acc did not improve from 0.70941
+1156/1156 ━━━━━━━━━━━━━━━━━━━━ 204s 158ms/step - dir_acc: 0.6810 - loss: 0.6155 - val_dir_acc: 0.6974 - val_loss: 0.6076
+Epoch 8/10
+1156/1156 ━━━━━━━━━━━━━━━━━━━━ 0s 154ms/step - dir_acc: 0.6800 - loss: 0.6155
+Epoch 8: dir_acc did not improve from 0.69699
+
+Epoch 8: val_dir_acc did not improve from 0.70941
+1156/1156 ━━━━━━━━━━━━━━━━━━━━ 199s 156ms/step - dir_acc: 0.6800 - loss: 0.6155 - val_dir_acc: 0.7008 - val_loss: 0.6007
+Epoch 9/10
+1156/1156 ━━━━━━━━━━━━━━━━━━━━ 0s 154ms/step - dir_acc: 0.6828 - loss: 0.6129
+Epoch 9: dir_acc did not improve from 0.69699
+
+Epoch 9: val_dir_acc did not improve from 0.70941
+1156/1156 ━━━━━━━━━━━━━━━━━━━━ 202s 156ms/step - dir_acc: 0.6828 - loss: 0.6129 - val_dir_acc: 0.7051 - val_loss: 0.5938
+Epoch 10/10
+1156/1156 ━━━━━━━━━━━━━━━━━━━━ 0s 153ms/step - dir_acc: 0.6934 - loss: 0.5887
+Epoch 10: dir_acc did not improve from 0.69699
+
+Epoch 10: val_dir_acc improved from 0.70941 to 0.70946, saving model to transformer_val_model.keras
+1156/1156 ━━━━━━━━━━━━━━━━━━━━ 203s 157ms/step - dir_acc: 0.6934 - loss: 0.5887 - val_dir_acc: 0.7095 - val_loss: 0.5738
+65/65 ━━━━━━━━━━━━━━━━━━━━ 6s 92ms/step - dir_acc: 0.7077 - loss: 0.5810
+65/65 ━━━━━━━━━━━━━━━━━━━━ 11s 105ms/step
+R-squared: 0.3921669728217436, accuracy: 0.7008928656578064, batch_size: 32, head_size: 128, num_heads: 64, ff_dim: 1024, num_layers: 18, dropout: 0.1
+Epoch 1/10
+289/289 ━━━━━━━━━━━━━━━━━━━━ 0s 303ms/step - dir_acc: 0.6116 - loss: 0.7974
+Epoch 1: dir_acc did not improve from 0.69699
+
+Epoch 1: val_dir_acc did not improve from 0.70946
+289/289 ━━━━━━━━━━━━━━━━━━━━ 166s 326ms/step - dir_acc: 0.6117 - loss: 0.7972 - val_dir_acc: 0.6671 - val_loss: 0.6895
+Epoch 2/10
+289/289 ━━━━━━━━━━━━━━━━━━━━ 0s 188ms/step - dir_acc: 0.6480 - loss: 0.6857
+Epoch 2: dir_acc did not improve from 0.69699
+
+Epoch 2: val_dir_acc did not improve from 0.70946
+289/289 ━━━━━━━━━━━━━━━━━━━━ 67s 193ms/step - dir_acc: 0.6480 - loss: 0.6856 - val_dir_acc: 0.6887 - val_loss: 0.6483
+Epoch 3/10
+289/289 ━━━━━━━━━━━━━━━━━━━━ 0s 188ms/step - dir_acc: 0.6642 - loss: 0.6399
+Epoch 3: dir_acc did not improve from 0.69699
+
+Epoch 3: val_dir_acc did not improve from 0.70946
+289/289 ━━━━━━━━━━━━━━━━━━━━ 82s 193ms/step - dir_acc: 0.6642 - loss: 0.6399 - val_dir_acc: 0.7044 - val_loss: 0.6247
+Epoch 4/10
+289/289 ━━━━━━━━━━━━━━━━━━━━ 0s 188ms/step - dir_acc: 0.6671 - loss: 0.6307
+Epoch 4: dir_acc did not improve from 0.69699
+
+Epoch 4: val_dir_acc did not improve from 0.70946
+289/289 ━━━━━━━━━━━━━━━━━━━━ 82s 192ms/step - dir_acc: 0.6671 - loss: 0.6307 - val_dir_acc: 0.6956 - val_loss: 0.6228
+Epoch 5/10
+289/289 ━━━━━━━━━━━━━━━━━━━━ 0s 188ms/step - dir_acc: 0.6762 - loss: 0.6321
+Epoch 5: dir_acc did not improve from 0.69699
+
+Epoch 5: val_dir_acc did not improve from 0.70946
+289/289 ━━━━━━━━━━━━━━━━━━━━ 82s 191ms/step - dir_acc: 0.6762 - loss: 0.6321 - val_dir_acc: 0.7011 - val_loss: 0.6086
+Epoch 6/10
+289/289 ━━━━━━━━━━━━━━━━━━━━ 0s 187ms/step - dir_acc: 0.6759 - loss: 0.6222
+Epoch 6: dir_acc did not improve from 0.69699
+
+Epoch 6: val_dir_acc did not improve from 0.70946
+289/289 ━━━━━━━━━━━━━━━━━━━━ 82s 191ms/step - dir_acc: 0.6759 - loss: 0.6222 - val_dir_acc: 0.6970 - val_loss: 0.6095
+Epoch 7/10
+289/289 ━━━━━━━━━━━━━━━━━━━━ 0s 188ms/step - dir_acc: 0.6783 - loss: 0.6131
+Epoch 7: dir_acc did not improve from 0.69699
+
+Epoch 7: val_dir_acc did not improve from 0.70946
+289/289 ━━━━━━━━━━━━━━━━━━━━ 82s 192ms/step - dir_acc: 0.6783 - loss: 0.6131 - val_dir_acc: 0.6919 - val_loss: 0.6069
+Epoch 8/10
+289/289 ━━━━━━━━━━━━━━━━━━━━ 0s 188ms/step - dir_acc: 0.6848 - loss: 0.6089
+Epoch 8: dir_acc did not improve from 0.69699
+
+Epoch 8: val_dir_acc did not improve from 0.70946
+289/289 ━━━━━━━━━━━━━━━━━━━━ 82s 192ms/step - dir_acc: 0.6848 - loss: 0.6089 - val_dir_acc: 0.6975 - val_loss: 0.6056
+Epoch 9/10
+289/289 ━━━━━━━━━━━━━━━━━━━━ 0s 188ms/step - dir_acc: 0.6920 - loss: 0.5927
+Epoch 9: dir_acc did not improve from 0.69699
+
+Epoch 9: val_dir_acc did not improve from 0.70946
+289/289 ━━━━━━━━━━━━━━━━━━━━ 82s 191ms/step - dir_acc: 0.6920 - loss: 0.5927 - val_dir_acc: 0.7025 - val_loss: 0.5924
+Epoch 10/10
+289/289 ━━━━━━━━━━━━━━━━━━━━ 0s 188ms/step - dir_acc: 0.6897 - loss: 0.5937
+Epoch 10: dir_acc did not improve from 0.69699
+
+Epoch 10: val_dir_acc improved from 0.70946 to 0.72411, saving model to transformer_val_model.keras
+289/289 ━━━━━━━━━━━━━━━━━━━━ 83s 193ms/step - dir_acc: 0.6897 - loss: 0.5937 - val_dir_acc: 0.7241 - val_loss: 0.5729
+65/65 ━━━━━━━━━━━━━━━━━━━━ 5s 43ms/step - dir_acc: 0.6950 - loss: 0.5890
+65/65 ━━━━━━━━━━━━━━━━━━━━ 7s 60ms/step
+R-squared: 0.3740678824561061, accuracy: 0.6898351907730103, batch_size: 128, head_size: 512, num_heads: 8, ff_dim: 512, num_layers: 14, dropout: 0.05
+Epoch 1/10
+1156/1156 ━━━━━━━━━━━━━━━━━━━━ 0s 68ms/step - dir_acc: 0.6135 - loss: 0.7587
+Epoch 1: dir_acc did not improve from 0.69699
+
+Epoch 1: val_dir_acc did not improve from 0.72411
+1156/1156 ━━━━━━━━━━━━━━━━━━━━ 128s 74ms/step - dir_acc: 0.6135 - loss: 0.7587 - val_dir_acc: 0.6686 - val_loss: 0.6819
+Epoch 2/10
+1155/1156 ━━━━━━━━━━━━━━━━━━━━ 0s 56ms/step - dir_acc: 0.6447 - loss: 0.6888
+Epoch 2: dir_acc did not improve from 0.69699
+
+Epoch 2: val_dir_acc did not improve from 0.72411
+1156/1156 ━━━━━━━━━━━━━━━━━━━━ 109s 57ms/step - dir_acc: 0.6447 - loss: 0.6888 - val_dir_acc: 0.6696 - val_loss: 0.6659
+Epoch 3/10
+1155/1156 ━━━━━━━━━━━━━━━━━━━━ 0s 56ms/step - dir_acc: 0.6465 - loss: 0.6800
+Epoch 3: dir_acc did not improve from 0.69699
+
+Epoch 3: val_dir_acc did not improve from 0.72411
+1156/1156 ━━━━━━━━━━━━━━━━━━━━ 82s 57ms/step - dir_acc: 0.6466 - loss: 0.6799 - val_dir_acc: 0.6782 - val_loss: 0.6542
+Epoch 4/10
+ 570/1156 ━━━━━━━━━━━━━━━━━━━━ 32s 56ms/step - dir_acc: 0.6573 - loss: 0.6635
+
+
+
+Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount("/content/drive", force_remount=True).
+Epoch 1/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 159ms/step - dir_acc: 0.6074 - loss: 0.7896
+Epoch 1: dir_acc improved from -inf to 0.63034, saving model to transformer_train_model.keras
+
+Epoch 1: val_dir_acc improved from -inf to 0.64321, saving model to transformer_val_model.keras
+279/279 ━━━━━━━━━━━━━━━━━━━━ 133s 200ms/step - dir_acc: 0.6075 - loss: 0.7894 - val_dir_acc: 0.6432 - val_loss: 0.6658
+Epoch 2/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 30ms/step - dir_acc: 0.6566 - loss: 0.6736
+Epoch 2: dir_acc improved from 0.63034 to 0.65763, saving model to transformer_train_model.keras
+
+Epoch 2: val_dir_acc improved from 0.64321 to 0.65582, saving model to transformer_val_model.keras
+279/279 ━━━━━━━━━━━━━━━━━━━━ 10s 35ms/step - dir_acc: 0.6567 - loss: 0.6736 - val_dir_acc: 0.6558 - val_loss: 0.6247
+Epoch 3/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 30ms/step - dir_acc: 0.6742 - loss: 0.6356
+Epoch 3: dir_acc improved from 0.65763 to 0.67409, saving model to transformer_train_model.keras
+
+Epoch 3: val_dir_acc improved from 0.65582 to 0.67372, saving model to transformer_val_model.keras
+279/279 ━━━━━━━━━━━━━━━━━━━━ 10s 35ms/step - dir_acc: 0.6742 - loss: 0.6356 - val_dir_acc: 0.6737 - val_loss: 0.6014
+Epoch 4/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 30ms/step - dir_acc: 0.6787 - loss: 0.6196
+Epoch 4: dir_acc improved from 0.67409 to 0.67830, saving model to transformer_train_model.keras
+
+Epoch 4: val_dir_acc improved from 0.67372 to 0.67771, saving model to transformer_val_model.keras
+279/279 ━━━━━━━━━━━━━━━━━━━━ 10s 35ms/step - dir_acc: 0.6787 - loss: 0.6196 - val_dir_acc: 0.6777 - val_loss: 0.5994
+Epoch 5/10
+277/279 ━━━━━━━━━━━━━━━━━━━━ 0s 30ms/step - dir_acc: 0.6900 - loss: 0.6092
+Epoch 5: dir_acc improved from 0.67830 to 0.68677, saving model to transformer_train_model.keras
+
+Epoch 5: val_dir_acc improved from 0.67771 to 0.68756, saving model to transformer_val_model.keras
+279/279 ━━━━━━━━━━━━━━━━━━━━ 10s 35ms/step - dir_acc: 0.6900 - loss: 0.6092 - val_dir_acc: 0.6876 - val_loss: 0.5865
+Epoch 6/10
+278/279 ━━━━━━━━━━━━━━━━━━━━ 0s 30ms/step - dir_acc: 0.6945 - loss: 0.6013
+Epoch 6: dir_acc improved from 0.68677 to 0.69333, saving model to transformer_train_model.keras
+
+Epoch 6: val_dir_acc improved from 0.68756 to 0.68813, saving model to transformer_val_model.keras
+279/279 ━━━━━━━━━━━━━━━━━━━━ 10s 36ms/step - dir_acc: 0.6945 - loss: 0.6013 - val_dir_acc: 0.6881 - val_loss: 0.5876
+Epoch 7/10
+277/279 ━━━━━━━━━━━━━━━━━━━━ 0s 29ms/step - dir_acc: 0.6910 - loss: 0.5995
+Epoch 7: dir_acc did not improve from 0.69333
+
+Epoch 7: val_dir_acc did not improve from 0.68813
+279/279 ━━━━━━━━━━━━━━━━━━━━ 8s 30ms/step - dir_acc: 0.6910 - loss: 0.5995 - val_dir_acc: 0.6856 - val_loss: 0.5869
+Epoch 8/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 30ms/step - dir_acc: 0.6884 - loss: 0.5920
+Epoch 8: dir_acc improved from 0.69333 to 0.69800, saving model to transformer_train_model.keras
+
+Epoch 8: val_dir_acc improved from 0.68813 to 0.69505, saving model to transformer_val_model.keras
+279/279 ━━━━━━━━━━━━━━━━━━━━ 10s 35ms/step - dir_acc: 0.6884 - loss: 0.5920 - val_dir_acc: 0.6950 - val_loss: 0.5799
+Epoch 9/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 30ms/step - dir_acc: 0.7054 - loss: 0.5831
+Epoch 9: dir_acc improved from 0.69800 to 0.70372, saving model to transformer_train_model.keras
+
+Epoch 9: val_dir_acc improved from 0.69505 to 0.70392, saving model to transformer_val_model.keras
+279/279 ━━━━━━━━━━━━━━━━━━━━ 10s 35ms/step - dir_acc: 0.7054 - loss: 0.5831 - val_dir_acc: 0.7039 - val_loss: 0.5649
+Epoch 10/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 30ms/step - dir_acc: 0.7046 - loss: 0.5780
+Epoch 10: dir_acc improved from 0.70372 to 0.70519, saving model to transformer_train_model.keras
+
+Epoch 10: val_dir_acc did not improve from 0.70392
+279/279 ━━━━━━━━━━━━━━━━━━━━ 9s 33ms/step - dir_acc: 0.7046 - loss: 0.5780 - val_dir_acc: 0.6900 - val_loss: 0.5802
+62/62 ━━━━━━━━━━━━━━━━━━━━ 8s 73ms/step - dir_acc: 0.7107 - loss: 0.5772
+62/62 ━━━━━━━━━━━━━━━━━━━━ 8s 68ms/step
+R-squared: 0.3780212928613921, accuracy: 0.7033863663673401, batch_size: 128, head_size: 128, num_heads: 8, ff_dim: 256, num_layers: 18, dropout: 0.3
+Epoch 1/10
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 0s 44ms/step - dir_acc: 0.6261 - loss: 0.7299
+Epoch 1: dir_acc did not improve from 0.70519
+
+Epoch 1: val_dir_acc did not improve from 0.70392
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 128s 53ms/step - dir_acc: 0.6261 - loss: 0.7299 - val_dir_acc: 0.6521 - val_loss: 0.6408
+Epoch 2/10
+1113/1114 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step - dir_acc: 0.6681 - loss: 0.6395
+Epoch 2: dir_acc did not improve from 0.70519
+
+Epoch 2: val_dir_acc did not improve from 0.70392
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 18s 16ms/step - dir_acc: 0.6681 - loss: 0.6395 - val_dir_acc: 0.6479 - val_loss: 0.6485
+Epoch 3/10
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step - dir_acc: 0.6792 - loss: 0.6205
+Epoch 3: dir_acc did not improve from 0.70519
+
+Epoch 3: val_dir_acc did not improve from 0.70392
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 18s 16ms/step - dir_acc: 0.6792 - loss: 0.6205 - val_dir_acc: 0.6824 - val_loss: 0.6060
+Epoch 4/10
+1113/1114 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step - dir_acc: 0.6937 - loss: 0.6022
+Epoch 4: dir_acc did not improve from 0.70519
+
+Epoch 4: val_dir_acc did not improve from 0.70392
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 18s 16ms/step - dir_acc: 0.6937 - loss: 0.6022 - val_dir_acc: 0.6929 - val_loss: 0.5750
+Epoch 5/10
+1113/1114 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step - dir_acc: 0.6996 - loss: 0.5940
+Epoch 5: dir_acc did not improve from 0.70519
+
+Epoch 5: val_dir_acc did not improve from 0.70392
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 18s 16ms/step - dir_acc: 0.6996 - loss: 0.5940 - val_dir_acc: 0.6966 - val_loss: 0.5765
+Epoch 6/10
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step - dir_acc: 0.7094 - loss: 0.5850
+Epoch 6: dir_acc did not improve from 0.70519
+
+Epoch 6: val_dir_acc did not improve from 0.70392
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 18s 16ms/step - dir_acc: 0.7094 - loss: 0.5850 - val_dir_acc: 0.6994 - val_loss: 0.5717
+Epoch 7/10
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step - dir_acc: 0.7034 - loss: 0.5751
+Epoch 7: dir_acc improved from 0.70519 to 0.70551, saving model to transformer_train_model.keras
+
+Epoch 7: val_dir_acc did not improve from 0.70392
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 18s 17ms/step - dir_acc: 0.7034 - loss: 0.5751 - val_dir_acc: 0.7033 - val_loss: 0.5767
+Epoch 8/10
+1113/1114 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step - dir_acc: 0.7133 - loss: 0.5756
+Epoch 8: dir_acc improved from 0.70551 to 0.71080, saving model to transformer_train_model.keras
+
+Epoch 8: val_dir_acc did not improve from 0.70392
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 19s 17ms/step - dir_acc: 0.7133 - loss: 0.5756 - val_dir_acc: 0.6986 - val_loss: 0.5638
+Epoch 9/10
+1112/1114 ━━━━━━━━━━━━━━━━━━━━ 0s 15ms/step - dir_acc: 0.7068 - loss: 0.5741
+Epoch 9: dir_acc did not improve from 0.71080
+
+Epoch 9: val_dir_acc improved from 0.70392 to 0.70852, saving model to transformer_val_model.keras
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 18s 16ms/step - dir_acc: 0.7068 - loss: 0.5741 - val_dir_acc: 0.7085 - val_loss: 0.5691
+Epoch 10/10
+1112/1114 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step - dir_acc: 0.7145 - loss: 0.5721
+Epoch 10: dir_acc improved from 0.71080 to 0.71390, saving model to transformer_train_model.keras
+
+Epoch 10: val_dir_acc improved from 0.70852 to 0.70861, saving model to transformer_val_model.keras
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 20s 18ms/step - dir_acc: 0.7145 - loss: 0.5721 - val_dir_acc: 0.7086 - val_loss: 0.5577
+62/62 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - dir_acc: 0.7276 - loss: 0.5612
+62/62 ━━━━━━━━━━━━━━━━━━━━ 7s 60ms/step
+R-squared: 0.40145919240492, accuracy: 0.7191047072410583, batch_size: 32, head_size: 64, num_heads: 8, ff_dim: 1024, num_layers: 16, dropout: 0.2
+Epoch 1/10
+557/557 ━━━━━━━━━━━━━━━━━━━━ 0s 82ms/step - dir_acc: 0.6159 - loss: 0.7466
+Epoch 1: dir_acc did not improve from 0.71390
+
+Epoch 1: val_dir_acc did not improve from 0.70861
+557/557 ━━━━━━━━━━━━━━━━━━━━ 127s 100ms/step - dir_acc: 0.6160 - loss: 0.7465 - val_dir_acc: 0.6712 - val_loss: 0.6246
+Epoch 2/10
+556/557 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step - dir_acc: 0.6691 - loss: 0.6328
+Epoch 2: dir_acc did not improve from 0.71390
+
+Epoch 2: val_dir_acc did not improve from 0.70861
+557/557 ━━━━━━━━━━━━━━━━━━━━ 12s 21ms/step - dir_acc: 0.6691 - loss: 0.6329 - val_dir_acc: 0.6620 - val_loss: 0.6246
+Epoch 3/10
+555/557 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step - dir_acc: 0.6805 - loss: 0.6291
+Epoch 3: dir_acc did not improve from 0.71390
+
+Epoch 3: val_dir_acc did not improve from 0.70861
+557/557 ━━━━━━━━━━━━━━━━━━━━ 12s 21ms/step - dir_acc: 0.6805 - loss: 0.6291 - val_dir_acc: 0.6671 - val_loss: 0.6152
+Epoch 4/10
+556/557 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step - dir_acc: 0.6877 - loss: 0.6159
+Epoch 4: dir_acc did not improve from 0.71390
+
+Epoch 4: val_dir_acc did not improve from 0.70861
+557/557 ━━━━━━━━━━━━━━━━━━━━ 12s 21ms/step - dir_acc: 0.6877 - loss: 0.6159 - val_dir_acc: 0.6757 - val_loss: 0.5958
+Epoch 5/10
+556/557 ━━━━━━━━━━━━━━━━━━━━ 0s 22ms/step - dir_acc: 0.6900 - loss: 0.6081
+Epoch 5: dir_acc did not improve from 0.71390
+
+Epoch 5: val_dir_acc did not improve from 0.70861
+557/557 ━━━━━━━━━━━━━━━━━━━━ 12s 22ms/step - dir_acc: 0.6900 - loss: 0.6081 - val_dir_acc: 0.6909 - val_loss: 0.5852
+Epoch 6/10
+556/557 ━━━━━━━━━━━━━━━━━━━━ 0s 22ms/step - dir_acc: 0.6947 - loss: 0.6019
+Epoch 6: dir_acc did not improve from 0.71390
+
+Epoch 6: val_dir_acc did not improve from 0.70861
+557/557 ━━━━━━━━━━━━━━━━━━━━ 12s 22ms/step - dir_acc: 0.6947 - loss: 0.6019 - val_dir_acc: 0.7025 - val_loss: 0.5785
+Epoch 7/10
+555/557 ━━━━━━━━━━━━━━━━━━━━ 0s 22ms/step - dir_acc: 0.6988 - loss: 0.5954
+Epoch 7: dir_acc did not improve from 0.71390
+
+Epoch 7: val_dir_acc did not improve from 0.70861
+557/557 ━━━━━━━━━━━━━━━━━━━━ 12s 22ms/step - dir_acc: 0.6988 - loss: 0.5954 - val_dir_acc: 0.6914 - val_loss: 0.5725
+Epoch 8/10
+556/557 ━━━━━━━━━━━━━━━━━━━━ 0s 22ms/step - dir_acc: 0.6974 - loss: 0.5917
+Epoch 8: dir_acc did not improve from 0.71390
+
+Epoch 8: val_dir_acc did not improve from 0.70861
+557/557 ━━━━━━━━━━━━━━━━━━━━ 12s 22ms/step - dir_acc: 0.6974 - loss: 0.5917 - val_dir_acc: 0.6973 - val_loss: 0.5823
+Epoch 9/10
+555/557 ━━━━━━━━━━━━━━━━━━━━ 0s 22ms/step - dir_acc: 0.7033 - loss: 0.5821
+Epoch 9: dir_acc did not improve from 0.71390
+
+Epoch 9: val_dir_acc improved from 0.70861 to 0.71156, saving model to transformer_val_model.keras
+557/557 ━━━━━━━━━━━━━━━━━━━━ 13s 24ms/step - dir_acc: 0.7033 - loss: 0.5821 - val_dir_acc: 0.7116 - val_loss: 0.5611
+Epoch 10/10
+556/557 ━━━━━━━━━━━━━━━━━━━━ 0s 22ms/step - dir_acc: 0.7044 - loss: 0.5833
+Epoch 10: dir_acc did not improve from 0.71390
+
+Epoch 10: val_dir_acc did not improve from 0.71156
+557/557 ━━━━━━━━━━━━━━━━━━━━ 12s 22ms/step - dir_acc: 0.7044 - loss: 0.5833 - val_dir_acc: 0.6995 - val_loss: 0.5631
+62/62 ━━━━━━━━━━━━━━━━━━━━ 4s 37ms/step - dir_acc: 0.7217 - loss: 0.5735
+62/62 ━━━━━━━━━━━━━━━━━━━━ 7s 62ms/step
+R-squared: 0.3671785521808273, accuracy: 0.7184140086174011, batch_size: 64, head_size: 64, num_heads: 8, ff_dim: 1024, num_layers: 16, dropout: 0.5
+Epoch 1/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 125ms/step - dir_acc: 0.6124 - loss: 0.7720
+Epoch 1: dir_acc did not improve from 0.71390
+
+Epoch 1: val_dir_acc did not improve from 0.71156
+279/279 ━━━━━━━━━━━━━━━━━━━━ 100s 154ms/step - dir_acc: 0.6124 - loss: 0.7718 - val_dir_acc: 0.6445 - val_loss: 0.6615
+Epoch 2/10
+277/279 ━━━━━━━━━━━━━━━━━━━━ 0s 28ms/step - dir_acc: 0.6520 - loss: 0.6644
+Epoch 2: dir_acc did not improve from 0.71390
+
+Epoch 2: val_dir_acc did not improve from 0.71156
+279/279 ━━━━━━━━━━━━━━━━━━━━ 8s 29ms/step - dir_acc: 0.6521 - loss: 0.6644 - val_dir_acc: 0.6739 - val_loss: 0.6358
+Epoch 3/10
+277/279 ━━━━━━━━━━━━━━━━━━━━ 0s 28ms/step - dir_acc: 0.6655 - loss: 0.6367
+Epoch 3: dir_acc did not improve from 0.71390
+
+Epoch 3: val_dir_acc did not improve from 0.71156
+279/279 ━━━━━━━━━━━━━━━━━━━━ 8s 29ms/step - dir_acc: 0.6656 - loss: 0.6367 - val_dir_acc: 0.6761 - val_loss: 0.6211
+Epoch 4/10
+277/279 ━━━━━━━━━━━━━━━━━━━━ 0s 28ms/step - dir_acc: 0.6810 - loss: 0.6222
+Epoch 4: dir_acc did not improve from 0.71390
+
+Epoch 4: val_dir_acc did not improve from 0.71156
+279/279 ━━━━━━━━━━━━━━━━━━━━ 8s 28ms/step - dir_acc: 0.6810 - loss: 0.6221 - val_dir_acc: 0.6743 - val_loss: 0.5980
+Epoch 5/10
+277/279 ━━━━━━━━━━━━━━━━━━━━ 0s 28ms/step - dir_acc: 0.6910 - loss: 0.6043
+Epoch 5: dir_acc did not improve from 0.71390
+
+Epoch 5: val_dir_acc did not improve from 0.71156
+279/279 ━━━━━━━━━━━━━━━━━━━━ 8s 29ms/step - dir_acc: 0.6910 - loss: 0.6043 - val_dir_acc: 0.6829 - val_loss: 0.5907
+Epoch 6/10
+277/279 ━━━━━━━━━━━━━━━━━━━━ 0s 28ms/step - dir_acc: 0.6919 - loss: 0.6023
+Epoch 6: dir_acc did not improve from 0.71390
+
+Epoch 6: val_dir_acc did not improve from 0.71156
+279/279 ━━━━━━━━━━━━━━━━━━━━ 8s 29ms/step - dir_acc: 0.6919 - loss: 0.6023 - val_dir_acc: 0.6848 - val_loss: 0.5925
+Epoch 7/10
+277/279 ━━━━━━━━━━━━━━━━━━━━ 0s 28ms/step - dir_acc: 0.6977 - loss: 0.5958
+Epoch 7: dir_acc did not improve from 0.71390
+
+Epoch 7: val_dir_acc did not improve from 0.71156
+279/279 ━━━━━━━━━━━━━━━━━━━━ 8s 28ms/step - dir_acc: 0.6977 - loss: 0.5958 - val_dir_acc: 0.6904 - val_loss: 0.5901
+Epoch 8/10
+277/279 ━━━━━━━━━━━━━━━━━━━━ 0s 28ms/step - dir_acc: 0.7005 - loss: 0.5939
+Epoch 8: dir_acc did not improve from 0.71390
+
+Epoch 8: val_dir_acc did not improve from 0.71156
+279/279 ━━━━━━━━━━━━━━━━━━━━ 8s 28ms/step - dir_acc: 0.7005 - loss: 0.5939 - val_dir_acc: 0.6772 - val_loss: 0.5913
+Epoch 9/10
+277/279 ━━━━━━━━━━━━━━━━━━━━ 0s 28ms/step - dir_acc: 0.7004 - loss: 0.5934
+Epoch 9: dir_acc did not improve from 0.71390
+
+Epoch 9: val_dir_acc did not improve from 0.71156
+279/279 ━━━━━━━━━━━━━━━━━━━━ 8s 28ms/step - dir_acc: 0.7005 - loss: 0.5934 - val_dir_acc: 0.6896 - val_loss: 0.5697
+Epoch 10/10
+278/279 ━━━━━━━━━━━━━━━━━━━━ 0s 28ms/step - dir_acc: 0.7016 - loss: 0.5867
+Epoch 10: dir_acc did not improve from 0.71390
+
+Epoch 10: val_dir_acc did not improve from 0.71156
+279/279 ━━━━━━━━━━━━━━━━━━━━ 8s 28ms/step - dir_acc: 0.7016 - loss: 0.5867 - val_dir_acc: 0.6980 - val_loss: 0.5743
+62/62 ━━━━━━━━━━━━━━━━━━━━ 7s 57ms/step - dir_acc: 0.7077 - loss: 0.5973
+62/62 ━━━━━━━━━━━━━━━━━━━━ 6s 54ms/step
+R-squared: 0.32999767740279917, accuracy: 0.7084267139434814, batch_size: 128, head_size: 256, num_heads: 8, ff_dim: 256, num_layers: 12, dropout: 0.5
+Epoch 1/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 65ms/step - dir_acc: 0.6120 - loss: 0.7665
+Epoch 1: dir_acc did not improve from 0.71390
+
+Epoch 1: val_dir_acc did not improve from 0.71156
+279/279 ━━━━━━━━━━━━━━━━━━━━ 63s 81ms/step - dir_acc: 0.6121 - loss: 0.7663 - val_dir_acc: 0.6477 - val_loss: 0.6424
+Epoch 2/10
+275/279 ━━━━━━━━━━━━━━━━━━━━ 0s 13ms/step - dir_acc: 0.6580 - loss: 0.6545
+Epoch 2: dir_acc did not improve from 0.71390
+
+Epoch 2: val_dir_acc did not improve from 0.71156
+279/279 ━━━━━━━━━━━━━━━━━━━━ 4s 13ms/step - dir_acc: 0.6582 - loss: 0.6543 - val_dir_acc: 0.6767 - val_loss: 0.6089
+Epoch 3/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step - dir_acc: 0.6824 - loss: 0.6168
+Epoch 3: dir_acc did not improve from 0.71390
+
+Epoch 3: val_dir_acc did not improve from 0.71156
+279/279 ━━━━━━━━━━━━━━━━━━━━ 4s 13ms/step - dir_acc: 0.6824 - loss: 0.6168 - val_dir_acc: 0.6987 - val_loss: 0.5893
+Epoch 4/10
+276/279 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step - dir_acc: 0.6870 - loss: 0.6096
+Epoch 4: dir_acc did not improve from 0.71390
+
+Epoch 4: val_dir_acc did not improve from 0.71156
+279/279 ━━━━━━━━━━━━━━━━━━━━ 3s 12ms/step - dir_acc: 0.6871 - loss: 0.6095 - val_dir_acc: 0.6907 - val_loss: 0.5824
+Epoch 5/10
+277/279 ━━━━━━━━━━━━━━━━━━━━ 0s 13ms/step - dir_acc: 0.6979 - loss: 0.5983
+Epoch 5: dir_acc did not improve from 0.71390
+
+Epoch 5: val_dir_acc did not improve from 0.71156
+279/279 ━━━━━━━━━━━━━━━━━━━━ 4s 13ms/step - dir_acc: 0.6980 - loss: 0.5983 - val_dir_acc: 0.6969 - val_loss: 0.5822
+Epoch 6/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step - dir_acc: 0.7066 - loss: 0.5863
+Epoch 6: dir_acc did not improve from 0.71390
+
+Epoch 6: val_dir_acc did not improve from 0.71156
+279/279 ━━━━━━━━━━━━━━━━━━━━ 4s 13ms/step - dir_acc: 0.7066 - loss: 0.5863 - val_dir_acc: 0.6678 - val_loss: 0.5972
+Epoch 7/10
+277/279 ━━━━━━━━━━━━━━━━━━━━ 0s 13ms/step - dir_acc: 0.7048 - loss: 0.5857
+Epoch 7: dir_acc did not improve from 0.71390
+
+Epoch 7: val_dir_acc did not improve from 0.71156
+279/279 ━━━━━━━━━━━━━━━━━━━━ 4s 13ms/step - dir_acc: 0.7049 - loss: 0.5856 - val_dir_acc: 0.6991 - val_loss: 0.5592
+Epoch 8/10
+278/279 ━━━━━━━━━━━━━━━━━━━━ 0s 13ms/step - dir_acc: 0.7081 - loss: 0.5783
+Epoch 8: dir_acc did not improve from 0.71390
+
+Epoch 8: val_dir_acc did not improve from 0.71156
+279/279 ━━━━━━━━━━━━━━━━━━━━ 4s 13ms/step - dir_acc: 0.7081 - loss: 0.5782 - val_dir_acc: 0.7071 - val_loss: 0.5534
+Epoch 9/10
+276/279 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step - dir_acc: 0.7201 - loss: 0.5671
+Epoch 9: dir_acc improved from 0.71390 to 0.72064, saving model to transformer_train_model.keras
+
+Epoch 9: val_dir_acc improved from 0.71156 to 0.71246, saving model to transformer_val_model.keras
+279/279 ━━━━━━━━━━━━━━━━━━━━ 4s 15ms/step - dir_acc: 0.7201 - loss: 0.5671 - val_dir_acc: 0.7125 - val_loss: 0.5448
+Epoch 10/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step - dir_acc: 0.7225 - loss: 0.5562
+Epoch 10: dir_acc improved from 0.72064 to 0.72226, saving model to transformer_train_model.keras
+
+Epoch 10: val_dir_acc did not improve from 0.71246
+279/279 ━━━━━━━━━━━━━━━━━━━━ 4s 13ms/step - dir_acc: 0.7225 - loss: 0.5562 - val_dir_acc: 0.7048 - val_loss: 0.5832
+62/62 ━━━━━━━━━━━━━━━━━━━━ 3s 25ms/step - dir_acc: 0.7139 - loss: 0.5684
+62/62 ━━━━━━━━━━━━━━━━━━━━ 5s 39ms/step
+R-squared: 0.36823493129581775, accuracy: 0.7032930254936218, batch_size: 128, head_size: 64, num_heads: 8, ff_dim: 256, num_layers: 8, dropout: 0.3
+Epoch 1/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 165ms/step - dir_acc: 0.5930 - loss: 0.8300
+Epoch 1: dir_acc did not improve from 0.72226
+
+Epoch 1: val_dir_acc did not improve from 0.71246
+279/279 ━━━━━━━━━━━━━━━━━━━━ 127s 189ms/step - dir_acc: 0.5931 - loss: 0.8298 - val_dir_acc: 0.6471 - val_loss: 0.6692
+Epoch 2/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - dir_acc: 0.6500 - loss: 0.6655
+Epoch 2: dir_acc did not improve from 0.72226
+
+Epoch 2: val_dir_acc did not improve from 0.71246
+279/279 ━━━━━━━━━━━━━━━━━━━━ 10s 35ms/step - dir_acc: 0.6500 - loss: 0.6655 - val_dir_acc: 0.6489 - val_loss: 0.6309
+Epoch 3/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - dir_acc: 0.6732 - loss: 0.6306
+Epoch 3: dir_acc did not improve from 0.72226
+
+Epoch 3: val_dir_acc did not improve from 0.71246
+279/279 ━━━━━━━━━━━━━━━━━━━━ 10s 35ms/step - dir_acc: 0.6732 - loss: 0.6306 - val_dir_acc: 0.6989 - val_loss: 0.5993
+Epoch 4/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - dir_acc: 0.6907 - loss: 0.6156
+Epoch 4: dir_acc did not improve from 0.72226
+
+Epoch 4: val_dir_acc did not improve from 0.71246
+279/279 ━━━━━━━━━━━━━━━━━━━━ 10s 34ms/step - dir_acc: 0.6907 - loss: 0.6156 - val_dir_acc: 0.6964 - val_loss: 0.5867
+Epoch 5/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - dir_acc: 0.6973 - loss: 0.5966
+Epoch 5: dir_acc did not improve from 0.72226
+
+Epoch 5: val_dir_acc did not improve from 0.71246
+279/279 ━━━━━━━━━━━━━━━━━━━━ 10s 34ms/step - dir_acc: 0.6973 - loss: 0.5966 - val_dir_acc: 0.7007 - val_loss: 0.5860
+Epoch 6/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - dir_acc: 0.7062 - loss: 0.5905
+Epoch 6: dir_acc did not improve from 0.72226
+
+Epoch 6: val_dir_acc did not improve from 0.71246
+279/279 ━━━━━━━━━━━━━━━━━━━━ 10s 34ms/step - dir_acc: 0.7062 - loss: 0.5905 - val_dir_acc: 0.7000 - val_loss: 0.5812
+Epoch 7/10
+278/279 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - dir_acc: 0.7031 - loss: 0.5812
+Epoch 7: dir_acc did not improve from 0.72226
+
+Epoch 7: val_dir_acc did not improve from 0.71246
+279/279 ━━━━━━━━━━━━━━━━━━━━ 10s 35ms/step - dir_acc: 0.7031 - loss: 0.5812 - val_dir_acc: 0.7072 - val_loss: 0.5578
+Epoch 8/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - dir_acc: 0.7125 - loss: 0.5747
+Epoch 8: dir_acc did not improve from 0.72226
+
+Epoch 8: val_dir_acc did not improve from 0.71246
+279/279 ━━━━━━━━━━━━━━━━━━━━ 10s 34ms/step - dir_acc: 0.7125 - loss: 0.5747 - val_dir_acc: 0.7011 - val_loss: 0.5548
+Epoch 9/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - dir_acc: 0.7172 - loss: 0.5624
+Epoch 9: dir_acc did not improve from 0.72226
+
+Epoch 9: val_dir_acc did not improve from 0.71246
+279/279 ━━━━━━━━━━━━━━━━━━━━ 10s 34ms/step - dir_acc: 0.7172 - loss: 0.5624 - val_dir_acc: 0.6881 - val_loss: 0.5716
+Epoch 10/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - dir_acc: 0.7093 - loss: 0.5789
+Epoch 10: dir_acc did not improve from 0.72226
+
+Epoch 10: val_dir_acc did not improve from 0.71246
+279/279 ━━━━━━━━━━━━━━━━━━━━ 10s 35ms/step - dir_acc: 0.7093 - loss: 0.5788 - val_dir_acc: 0.6887 - val_loss: 0.5718
+62/62 ━━━━━━━━━━━━━━━━━━━━ 6s 46ms/step - dir_acc: 0.7000 - loss: 0.5865
+62/62 ━━━━━━━━━━━━━━━━━━━━ 9s 76ms/step
+R-squared: 0.3654051687964085, accuracy: 0.6912896037101746, batch_size: 128, head_size: 128, num_heads: 8, ff_dim: 256, num_layers: 18, dropout: 0.05
+Epoch 1/10
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 0s 52ms/step - dir_acc: 0.6256 - loss: 0.7475
+Epoch 1: dir_acc did not improve from 0.72226
+
+Epoch 1: val_dir_acc did not improve from 0.71246
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 135s 60ms/step - dir_acc: 0.6257 - loss: 0.7475 - val_dir_acc: 0.6438 - val_loss: 0.6330
+Epoch 2/10
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 0s 23ms/step - dir_acc: 0.6612 - loss: 0.6515
+Epoch 2: dir_acc did not improve from 0.72226
+
+Epoch 2: val_dir_acc did not improve from 0.71246
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 26s 24ms/step - dir_acc: 0.6612 - loss: 0.6515 - val_dir_acc: 0.6677 - val_loss: 0.6157
+Epoch 3/10
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 0s 23ms/step - dir_acc: 0.6729 - loss: 0.6261
+Epoch 3: dir_acc did not improve from 0.72226
+
+Epoch 3: val_dir_acc did not improve from 0.71246
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 26s 24ms/step - dir_acc: 0.6729 - loss: 0.6261 - val_dir_acc: 0.6717 - val_loss: 0.5995
+Epoch 4/10
+1112/1114 ━━━━━━━━━━━━━━━━━━━━ 0s 23ms/step - dir_acc: 0.6851 - loss: 0.6155
+Epoch 4: dir_acc did not improve from 0.72226
+
+Epoch 4: val_dir_acc did not improve from 0.71246
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 26s 24ms/step - dir_acc: 0.6851 - loss: 0.6155 - val_dir_acc: 0.6793 - val_loss: 0.5922
+Epoch 5/10
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 0s 23ms/step - dir_acc: 0.6831 - loss: 0.6149
+Epoch 5: dir_acc did not improve from 0.72226
+
+Epoch 5: val_dir_acc did not improve from 0.71246
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 26s 24ms/step - dir_acc: 0.6831 - loss: 0.6149 - val_dir_acc: 0.6757 - val_loss: 0.5888
+Epoch 6/10
+1112/1114 ━━━━━━━━━━━━━━━━━━━━ 0s 23ms/step - dir_acc: 0.6898 - loss: 0.6011
+Epoch 6: dir_acc did not improve from 0.72226
+
+Epoch 6: val_dir_acc did not improve from 0.71246
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 26s 24ms/step - dir_acc: 0.6898 - loss: 0.6011 - val_dir_acc: 0.6829 - val_loss: 0.5800
+Epoch 7/10
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 0s 23ms/step - dir_acc: 0.6898 - loss: 0.5981
+Epoch 7: dir_acc did not improve from 0.72226
+
+Epoch 7: val_dir_acc did not improve from 0.71246
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 26s 24ms/step - dir_acc: 0.6898 - loss: 0.5981 - val_dir_acc: 0.6823 - val_loss: 0.5895
+Epoch 8/10
+1112/1114 ━━━━━━━━━━━━━━━━━━━━ 0s 23ms/step - dir_acc: 0.6967 - loss: 0.5963
+Epoch 8: dir_acc did not improve from 0.72226
+
+Epoch 8: val_dir_acc did not improve from 0.71246
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 26s 24ms/step - dir_acc: 0.6967 - loss: 0.5963 - val_dir_acc: 0.6834 - val_loss: 0.5763
+Epoch 9/10
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 0s 23ms/step - dir_acc: 0.6939 - loss: 0.5921
+Epoch 9: dir_acc did not improve from 0.72226
+
+Epoch 9: val_dir_acc did not improve from 0.71246
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 26s 24ms/step - dir_acc: 0.6939 - loss: 0.5921 - val_dir_acc: 0.6934 - val_loss: 0.5750
+Epoch 10/10
+1113/1114 ━━━━━━━━━━━━━━━━━━━━ 0s 23ms/step - dir_acc: 0.6987 - loss: 0.5885
+Epoch 10: dir_acc did not improve from 0.72226
+
+Epoch 10: val_dir_acc did not improve from 0.71246
+1114/1114 ━━━━━━━━━━━━━━━━━━━━ 26s 24ms/step - dir_acc: 0.6987 - loss: 0.5885 - val_dir_acc: 0.6890 - val_loss: 0.5660
+62/62 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step - dir_acc: 0.7089 - loss: 0.5748
+62/62 ━━━━━━━━━━━━━━━━━━━━ 7s 64ms/step
+R-squared: 0.3659575041922378, accuracy: 0.7054958343505859, batch_size: 32, head_size: 512, num_heads: 8, ff_dim: 256, num_layers: 14, dropout: 0.2
+Epoch 1/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 122ms/step - dir_acc: 0.5959 - loss: 0.8362
+Epoch 1: dir_acc did not improve from 0.72226
+
+Epoch 1: val_dir_acc did not improve from 0.71246
+279/279 ━━━━━━━━━━━━━━━━━━━━ 90s 150ms/step - dir_acc: 0.5959 - loss: 0.8360 - val_dir_acc: 0.6255 - val_loss: 0.6814
+Epoch 2/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 38ms/step - dir_acc: 0.6503 - loss: 0.6741
+Epoch 2: dir_acc did not improve from 0.72226
+
+Epoch 2: val_dir_acc did not improve from 0.71246
+279/279 ━━━━━━━━━━━━━━━━━━━━ 11s 39ms/step - dir_acc: 0.6503 - loss: 0.6741 - val_dir_acc: 0.6478 - val_loss: 0.6451
+Epoch 3/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 38ms/step - dir_acc: 0.6646 - loss: 0.6492
+Epoch 3: dir_acc did not improve from 0.72226
+
+Epoch 3: val_dir_acc did not improve from 0.71246
+279/279 ━━━━━━━━━━━━━━━━━━━━ 11s 39ms/step - dir_acc: 0.6646 - loss: 0.6491 - val_dir_acc: 0.6653 - val_loss: 0.6360
+Epoch 4/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 38ms/step - dir_acc: 0.6814 - loss: 0.6269
+Epoch 4: dir_acc did not improve from 0.72226
+
+Epoch 4: val_dir_acc did not improve from 0.71246
+279/279 ━━━━━━━━━━━━━━━━━━━━ 11s 39ms/step - dir_acc: 0.6814 - loss: 0.6269 - val_dir_acc: 0.6744 - val_loss: 0.6071
+Epoch 5/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 38ms/step - dir_acc: 0.6797 - loss: 0.6154
+Epoch 5: dir_acc did not improve from 0.72226
+
+Epoch 5: val_dir_acc did not improve from 0.71246
+279/279 ━━━━━━━━━━━━━━━━━━━━ 11s 39ms/step - dir_acc: 0.6797 - loss: 0.6154 - val_dir_acc: 0.6841 - val_loss: 0.5892
+Epoch 6/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 38ms/step - dir_acc: 0.6884 - loss: 0.6020
+Epoch 6: dir_acc did not improve from 0.72226
+
+Epoch 6: val_dir_acc did not improve from 0.71246
+279/279 ━━━━━━━━━━━━━━━━━━━━ 11s 39ms/step - dir_acc: 0.6884 - loss: 0.6019 - val_dir_acc: 0.7018 - val_loss: 0.6012
+Epoch 7/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 38ms/step - dir_acc: 0.6974 - loss: 0.5979
+Epoch 7: dir_acc did not improve from 0.72226
+
+Epoch 7: val_dir_acc did not improve from 0.71246
+279/279 ━━━━━━━━━━━━━━━━━━━━ 11s 39ms/step - dir_acc: 0.6974 - loss: 0.5979 - val_dir_acc: 0.7073 - val_loss: 0.5682
+Epoch 8/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 38ms/step - dir_acc: 0.7004 - loss: 0.5838
+Epoch 8: dir_acc did not improve from 0.72226
+
+Epoch 8: val_dir_acc did not improve from 0.71246
+279/279 ━━━━━━━━━━━━━━━━━━━━ 11s 39ms/step - dir_acc: 0.7004 - loss: 0.5838 - val_dir_acc: 0.7003 - val_loss: 0.5666
+Epoch 9/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 38ms/step - dir_acc: 0.7043 - loss: 0.5811
+Epoch 9: dir_acc did not improve from 0.72226
+
+Epoch 9: val_dir_acc did not improve from 0.71246
+279/279 ━━━━━━━━━━━━━━━━━━━━ 11s 39ms/step - dir_acc: 0.7043 - loss: 0.5811 - val_dir_acc: 0.7111 - val_loss: 0.5509
+Epoch 10/10
+279/279 ━━━━━━━━━━━━━━━━━━━━ 0s 38ms/step - dir_acc: 0.7135 - loss: 0.5701
+Epoch 10: dir_acc did not improve from 0.72226
+
+Epoch 10: val_dir_acc did not improve from 0.71246
+279/279 ━━━━━━━━━━━━━━━━━━━━ 11s 39ms/step - dir_acc: 0.7135 - loss: 0.5701 - val_dir_acc: 0.7040 - val_loss: 0.5683
+62/62 ━━━━━━━━━━━━━━━━━━━━ 4s 35ms/step - dir_acc: 0.7126 - loss: 0.5851
+62/62 ━━━━━━━━━━━━━━━━━━━━ 5s 45ms/step
+R-squared: 0.3597597790997844, accuracy: 0.7090240716934204, batch_size: 128, head_size: 64, num_heads: 64, ff_dim: 1024, num_layers: 10, dropout: 0.5
+Epoch 1/10
+557/557 ━━━━━━━━━━━━━━━━━━━━ 0s 106ms/step - dir_acc: 0.6167 - loss: 0.7645
+Epoch 1: dir_acc did not improve from 0.72226
+
+Epoch 1: val_dir_acc did not improve from 0.71246
+557/557 ━━━━━━━━━━━━━━━━━━━━ 137s 120ms/step - dir_acc: 0.6167 - loss: 0.7644 - val_dir_acc: 0.6282 - val_loss: 0.6746
+Epoch 2/10
+557/557 ━━━━━━━━━━━━━━━━━━━━ 0s 46ms/step - dir_acc: 0.6451 - loss: 0.6862
+Epoch 2: dir_acc did not improve from 0.72226
+
+Epoch 2: val_dir_acc did not improve from 0.71246
+557/557 ━━━━━━━━━━━━━━━━━━━━ 26s 47ms/step - dir_acc: 0.6451 - loss: 0.6862 - val_dir_acc: 0.6454 - val_loss: 0.6580
+Epoch 3/10
+557/557 ━━━━━━━━━━━━━━━━━━━━ 0s 46ms/step - dir_acc: 0.6550 - loss: 0.6708
+Epoch 3: dir_acc did not improve from 0.72226
+
+Epoch 3: val_dir_acc did not improve from 0.71246
+557/557 ━━━━━━━━━━━━━━━━━━━━ 26s 47ms/step - dir_acc: 0.6550 - loss: 0.6708 - val_dir_acc: 0.6385 - val_loss: 0.6587
+Epoch 4/10
+556/557 ━━━━━━━━━━━━━━━━━━━━ 0s 46ms/step - dir_acc: 0.6628 - loss: 0.6509
+Epoch 4: dir_acc did not improve from 0.72226
+
+Epoch 4: val_dir_acc did not improve from 0.71246
+557/557 ━━━━━━━━━━━━━━━━━━━━ 26s 47ms/step - dir_acc: 0.6628 - loss: 0.6509 - val_dir_acc: 0.6591 - val_loss: 0.6219
+Epoch 5/10
+556/557 ━━━━━━━━━━━━━━━━━━━━ 0s 46ms/step - dir_acc: 0.6731 - loss: 0.6226
+Epoch 5: dir_acc did not improve from 0.72226
+
+Epoch 5: val_dir_acc did not improve from 0.71246
+557/557 ━━━━━━━━━━━━━━━━━━━━ 26s 47ms/step - dir_acc: 0.6731 - loss: 0.6226 - val_dir_acc: 0.6727 - val_loss: 0.5998
+Epoch 6/10
+556/557 ━━━━━━━━━━━━━━━━━━━━ 0s 46ms/step - dir_acc: 0.6847 - loss: 0.6080
+Epoch 6: dir_acc did not improve from 0.72226
+
+Epoch 6: val_dir_acc did not improve from 0.71246
+557/557 ━━━━━━━━━━━━━━━━━━━━ 26s 47ms/step - dir_acc: 0.6847 - loss: 0.6080 - val_dir_acc: 0.6706 - val_loss: 0.6021
+Epoch 7/10
+557/557 ━━━━━━━━━━━━━━━━━━━━ 0s 46ms/step - dir_acc: 0.6845 - loss: 0.6037
+Epoch 7: dir_acc did not improve from 0.72226
+
+Epoch 7: val_dir_acc did not improve from 0.71246
+557/557 ━━━━━━━━━━━━━━━━━━━━ 26s 47ms/step - dir_acc: 0.6845 - loss: 0.6037 - val_dir_acc: 0.6691 - val_loss: 0.5892
+Epoch 8/10
+173/557 ━━━━━━━━━━━━━━━━━━━━ 17s 46ms/step - dir_acc: 0.6860 - loss: 0.5957
