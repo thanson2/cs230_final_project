@@ -1,7 +1,0 @@
-yfinance
-numpy
-pandas
-tensorflow
-keras
-matplotlib
-sklearn
